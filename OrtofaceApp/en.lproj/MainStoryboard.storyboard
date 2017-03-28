@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES" initialViewController="4">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Data Source-->
+        <scene sceneID="11">
+            <objects>
+                <viewController storyboardIdentifier="Ortoface" id="2" customClass="FirstViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="17">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FONDO_BIENVENIDOS.jpg" id="CRV-OM-eXa">
+                                <rect key="frame" x="0.0" y="44" width="768" height="931"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo.jpg" id="H2Y-5U-0ae">
+                                <rect key="frame" x="3" y="75" width="344" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="right" id="i08-Pn-brS">
+                                <rect key="frame" x="457" y="113" width="298" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Clínica especializada en prevención
+y alteraciones de la oclusión</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" secureTextEntry="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="right" id="1yN-Gh-vQT">
+                                <rect key="frame" x="432" y="59" width="323" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Dr. Jesús Fernández Sánchez
+</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" secureTextEntry="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="right" id="kpV-v1-vXd">
+                                <rect key="frame" x="432" y="79" width="323" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Paseo de las Delicias 55 1º dcha, MADRID
+clinica@ortoface.es</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" secureTextEntry="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="www.ortoface.com  - " textAlignment="right" id="slZ-Vv-nwK">
+                                <rect key="frame" x="486" y="96" width="139" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" secureTextEntry="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="7FH-A4-oQx">
+                                <rect key="frame" x="33" y="663" width="306" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ortoface es una clínica dedicada a la Ortodoncia en exclusiva desde 1992 con especial énfasis en el tratamiento de los pacientes con malformaciones faciales (Fisura de labio y paladar, Labio leporino) esqueléticas o sindrómicas (Síndrome de Down, Síndrome de Turner, Síndrome de Crouzon, Sïndrome de Pierre Robin).                                              Trabajamos de forma multidisciplinar y coordinada con cirujanos especialistas, pediatras y odontólogos en forma de sesiones clínicas conjuntas, lo que pretende garantizar un resultado de alta calidad estética y funcional.                                 </string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" secureTextEntry="YES"/>
+                            </textView>
+                            <view alpha="0.50000000000000011" contentMode="scaleToFill" id="jTX-YB-tIh">
+                                <rect key="frame" x="0.0" y="930" width="768" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Telf: 91/539 38 19 - 91/528 87 16" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LcR-mh-lQC" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
+                                        <rect key="frame" x="271" y="5" width="196" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fax: 91/530 18 99" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eWR-3Y-t77" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
+                                        <rect key="frame" x="444" y="5" width="196" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="clinica@ortoface.es" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9sN-kg-y9Q" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
+                                        <rect key="frame" x="549" y="5" width="196" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Diseño iOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ydA-ub-cla" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
+                                        <rect key="frame" x="660" y="5" width="196" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="MADRID, Paseo de las Delicias 55 1º dcha " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tmw-jb-2Ur" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
+                                        <rect key="frame" x="65" y="5" width="196" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="wIK-FL-2zQ">
+                                <rect key="frame" x="29" y="147" width="708" height="412"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="tit_banner.jpg" id="Rjs-lL-1nI">
+                                <rect key="frame" x="-20" y="559" width="806" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleAspectFit" id="EYe-iQ-QjF" customClass="iCarousel">
+                                <rect key="frame" x="413" y="627" width="230" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="A6G-Hi-taQ"/>
+                                    <outlet property="delegate" destination="2" id="yw3-Xn-iTs"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="¿QUÉ ES ORTOFACE?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pVb-hh-tsU">
+                                <rect key="frame" x="39" y="634" width="280" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" id="iRB-d3-qZ4">
+                                <rect key="frame" x="29" y="549" width="708" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.081328734429999994" green="0.4694272733" blue="0.88699473510000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="clickPageControll:" destination="2" eventType="valueChanged" id="7kS-UX-YtH"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ORTOFACE" id="npz-ux-9Nw"/>
+                    <connections>
+                        <outlet property="carousel" destination="EYe-iQ-QjF" id="GE9-Gg-hbG"/>
+                        <outlet property="pageControll" destination="iRB-d3-qZ4" id="3AQ-gM-Ia9"/>
+                        <outlet property="scrollView" destination="wIK-FL-2zQ" id="50V-Yv-ixg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3939" y="152"/>
+        </scene>
+        <!--Evaluacion Final de Tratamiento-->
+        <scene sceneID="13">
+            <objects>
+                <viewController id="3" customClass="SecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="16">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="LEI-QO-wLO" userLabel="KBScrollView" customClass="KBScrollView">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FONDO_BIENVENIDOS.jpg" id="ei0-xl-Wj3">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="1026"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_comentarios_usuarios.jpg" id="0g8-5T-tU7">
+                                        <rect key="frame" x="20" y="91" width="730" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_comentarios_usuarios.jpg" id="ncw-XL-TCm">
+                                        <rect key="frame" x="22" y="189" width="727" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_unicalinea_comentarios.jpg" id="qbK-yR-Rdy">
+                                        <rect key="frame" x="36" y="327" width="724" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_unicalinea_comentarios.jpg" id="Iun-tf-AwS">
+                                        <rect key="frame" x="36" y="362" width="723" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_unicalinea_comentarios.jpg" id="9gL-3r-BZH">
+                                        <rect key="frame" x="36" y="397" width="720" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_unicalinea_comentarios.jpg" id="zrr-cU-S47">
+                                        <rect key="frame" x="36" y="521" width="723" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_unicalinea_comentarios.jpg" id="uv5-WZ-fca">
+                                        <rect key="frame" x="36" y="486" width="721" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_unicalinea_comentarios.jpg" id="I0o-Kq-z7i">
+                                        <rect key="frame" x="36" y="451" width="721" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <view opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" id="vHy-o2-cui" userLabel="Screenshot Picture View">
+                                        <rect key="frame" x="227" y="908" width="37" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" id="mmY-jb-DQK" userLabel="Screenshot Picture Image View">
+                                                <rect key="frame" x="5" y="5" width="27" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="7" id="kB9-LE-FxX">
+                                                <rect key="frame" x="11" y="21" width="12" height="10"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" selectable="NO" id="6jS-Nm-2av">
+                                        <rect key="frame" x="270" y="0.0" width="490" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">De la misma forma  que la belleza es apreciada por los ojos del observador, la calidad de un servicio es la que no olvida el cliente. Al final de todo, la persona que juzga un tratamiento es ni más ni menos la apreciación  del paciente</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo.jpg" id="mKm-JY-axa">
+                                        <rect key="frame" x="9" y="11" width="261" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="COSAS QUE TE GUSTARON DE LA CONSULTA" selectable="NO" id="YjZ-ef-nCL">
+                                        <rect key="frame" x="16" y="302" width="382" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="1. Estás contento con la forma que el tratamiento ha sido realizado en nuestra clínica?" selectable="NO" id="NZk-LI-6CZ">
+                                        <rect key="frame" x="18" y="64" width="730" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Muy Insatisfecho" minimumFontSize="17" id="GO8-G1-Rez">
+                                        <rect key="frame" x="15" y="579" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLasInstalacionesDondeTrabajamosMuyInsatisfecho:" destination="3" eventType="editingDidEnd" id="h8c-p9-DHg"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insatisfecho" minimumFontSize="17" id="lLN-DK-mQs">
+                                        <rect key="frame" x="166" y="579" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLasInstalacionesDondeTrabajamosInsatisfecho:" destination="3" eventType="editingDidEnd" id="rnE-Pl-8dW"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Termino Medio" minimumFontSize="17" id="Sbj-z9-HeQ">
+                                        <rect key="frame" x="316" y="579" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLasInstalacionesDondeTrabajamosTerminoMedio:" destination="3" eventType="editingDidEnd" id="1ba-FC-xSW"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Satisfecho" minimumFontSize="17" id="WIC-S7-5A5">
+                                        <rect key="frame" x="466" y="579" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLasInstalacionesDondeTrabajamosSatisfecho:" destination="3" eventType="editingDidEnd" id="uZM-68-LHt"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Muy Satisfecho" minimumFontSize="17" id="5Bk-g8-5ww">
+                                        <rect key="frame" x="614" y="579" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLasInstalacionesDondeTrabajamosMuySatisfecho:" destination="3" eventType="editingDidEnd" id="E2n-Dh-PdJ"/>
+                                        </connections>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="iUa-vs-otL">
+                                        <rect key="frame" x="36" y="77" width="700" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="2. Se han conseguido los resultados  y objetivos que esperabas obtener cuando comenzaste tu tratamiento ortodóncico?" selectable="NO" id="YtI-aD-05C">
+                                        <rect key="frame" x="20" y="163" width="730" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="dWh-7i-n4Q">
+                                        <rect key="frame" x="36" y="176" width="700" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" id="TIA-AL-3D3">
+                                        <rect key="frame" x="18" y="258" width="730" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">3. Alguna crítica siempre podrá ser apreciada. Por favor, enumera las cosas que más te gustaron de la consulta y las que crees que se deberán mejorar?</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="4. Con las INSTALACIONES donde trabajamos" selectable="NO" id="72G-nF-NNV">
+                                        <rect key="frame" x="18" y="547" width="730" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Muy Insatisfecho" minimumFontSize="17" id="pWr-JI-bTS">
+                                        <rect key="frame" x="15" y="638" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho:" destination="3" eventType="editingDidEnd" id="eHQ-bo-3d1"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insatisfecho" minimumFontSize="17" id="h3a-pO-CEV">
+                                        <rect key="frame" x="166" y="638" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho:" destination="3" eventType="editingDidEnd" id="12w-SF-res"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Termino Medio" minimumFontSize="17" id="ONL-PX-hPG">
+                                        <rect key="frame" x="316" y="638" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio:" destination="3" eventType="editingDidEnd" id="iWc-FS-M7q"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Satisfecho" minimumFontSize="17" id="ujh-b1-tck">
+                                        <rect key="frame" x="466" y="638" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho:" destination="3" eventType="editingDidEnd" id="DOt-Dg-kpx"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Muy Satisfecho" minimumFontSize="17" id="S75-nh-c9p">
+                                        <rect key="frame" x="614" y="638" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho:" destination="3" eventType="editingDidEnd" id="13L-1Q-vrT"/>
+                                        </connections>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="5. Con la SOLUCION a los problemas planteados por los pacientes" selectable="NO" id="hzM-gb-g4o">
+                                        <rect key="frame" x="18" y="606" width="730" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Muy Insatisfecho" minimumFontSize="17" id="Ofz-4g-Fmb">
+                                        <rect key="frame" x="15" y="697" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho:" destination="3" eventType="editingDidEnd" id="dMO-n5-PlQ"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insatisfecho" minimumFontSize="17" id="1HT-K4-wTF">
+                                        <rect key="frame" x="166" y="697" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLaOrganizacionGeneralDeLaClinicaInsatisfecho:" destination="3" eventType="editingDidEnd" id="p7E-1g-mam"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Termino Medio" minimumFontSize="17" id="YsL-UZ-etg">
+                                        <rect key="frame" x="316" y="697" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLaOrganizacionGeneralDeLaClinicaTerminoMedio:" destination="3" eventType="editingDidEnd" id="Nsc-Jn-jxD"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Satisfecho" minimumFontSize="17" id="vNe-1Q-3nn">
+                                        <rect key="frame" x="466" y="697" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLaOrganizacionGeneralDeLaClinicaSatisfecho:" destination="3" eventType="editingDidEnd" id="L03-Sh-tZA"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Muy Satisfecho" minimumFontSize="17" id="lqC-tw-NV3">
+                                        <rect key="frame" x="614" y="697" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseConLaOrganizacionGeneralDeLaClinicaMuySatisfecho:" destination="3" eventType="editingDidEnd" id="YW9-fQ-4HC"/>
+                                        </connections>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="6. Con la ORGANIZACION  general de la clínica" selectable="NO" id="cug-bt-ycx">
+                                        <rect key="frame" x="18" y="665" width="730" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="1." id="FI8-dM-DEU">
+                                        <rect key="frame" x="18" y="326" width="35" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="ql0-mk-MJK">
+                                        <rect key="frame" x="52" y="322" width="696" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="2." id="p0S-Ua-qdt">
+                                        <rect key="frame" x="18" y="361" width="35" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="HtW-aM-NJr">
+                                        <rect key="frame" x="52" y="356" width="696" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="3." id="Y55-A8-htg">
+                                        <rect key="frame" x="18" y="395" width="35" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="7xy-vG-1yD">
+                                        <rect key="frame" x="52" y="391" width="696" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="ÁREAS QUE DEBEN SER MEJORADAS" selectable="NO" id="218-MG-jw9">
+                                        <rect key="frame" x="18" y="428" width="382" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="1." id="2Sc-f0-BPR">
+                                        <rect key="frame" x="18" y="450" width="35" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="pEa-6C-lfr">
+                                        <rect key="frame" x="52" y="445" width="696" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="2." id="Da4-2p-waF">
+                                        <rect key="frame" x="18" y="485" width="35" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="fbQ-Ax-BU8">
+                                        <rect key="frame" x="52" y="480" width="696" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="3." id="J8C-nb-iOv">
+                                        <rect key="frame" x="18" y="519" width="35" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="oeX-F3-bQz">
+                                        <rect key="frame" x="52" y="515" width="696" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Rcr-9O-UyN">
+                                        <rect key="frame" x="681" y="830" width="45" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="boton_enviar_mail.png">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getUIKitScreeshot" destination="3" eventType="touchUpInside" id="KCI-EE-8HC"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Enviar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z5K-hT-dMs">
+                                        <rect key="frame" x="676" y="856" width="55" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Oblique" family="Helvetica" pointSize="13"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Muy Insatisfecho" minimumFontSize="17" id="lKk-Ll-ccW">
+                                        <rect key="frame" x="15" y="755" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho:" destination="3" eventType="editingDidEnd" id="LSV-Vx-CV8"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insatisfecho" minimumFontSize="17" id="WFA-Ag-bG1">
+                                        <rect key="frame" x="166" y="755" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho:" destination="3" eventType="editingDidEnd" id="YNY-Of-Uy2"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Termino Medio" minimumFontSize="17" id="hQm-hL-13c">
+                                        <rect key="frame" x="316" y="755" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio:" destination="3" eventType="editingDidEnd" id="bdD-pr-Rhh"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Satisfecho" minimumFontSize="17" id="UuT-tP-cIU">
+                                        <rect key="frame" x="466" y="755" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho:" destination="3" eventType="editingDidEnd" id="7qh-IT-9rg"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Muy Satisfecho" minimumFontSize="17" id="bHn-Go-yLs">
+                                        <rect key="frame" x="614" y="755" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho:" destination="3" eventType="editingDidEnd" id="dKm-OU-aJo"/>
+                                        </connections>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="7. Satisfacción GLOBAL de la atención en el trato recibido" selectable="NO" id="nEo-Oa-Bj0">
+                                        <rect key="frame" x="18" y="723" width="730" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Si" minimumFontSize="17" id="6Lg-sX-KyW">
+                                        <rect key="frame" x="15" y="814" width="45" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseRecomendariasOrtofaceUnAmigoConocidoSi:" destination="3" eventType="editingDidEnd" id="Mvd-dm-XMX"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre  y Apellido" minimumFontSize="17" id="C8s-b2-rek">
+                                        <rect key="frame" x="16" y="856" width="289" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseRecomendariasOrtofaceUnAmigoConocidoSi:" destination="3" eventType="editingDidEnd" id="aYM-UB-oic"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="No" minimumFontSize="17" id="roW-KL-biC">
+                                        <rect key="frame" x="71" y="814" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseRecomendariasOrtofaceUnAmigoConocidoNo:" destination="3" eventType="editingDidEnd" id="xfI-6C-fty"/>
+                                        </connections>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="8. Recomendarías ORTOFACE a un amigo o conocido" selectable="NO" id="pic-hR-dmT">
+                                        <rect key="frame" x="18" y="782" width="730" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" id="BJO-nB-KsC">
+                                        <rect key="frame" x="330" y="820" width="318" height="95"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Si quieres puedes permanecer anónimo. Gracias por tu ayuda al evaluar nuestros procedimientos y la eficiencia y dedicación de todo el quipo</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Evaluacion Final de Tratamiento" id="9Ub-aM-Gio"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="AreasQueDebenSerMejoradas1" destination="pEa-6C-lfr" id="t84-rz-Mc0"/>
+                        <outlet property="AreasQueDebenSerMejoradas2" destination="fbQ-Ax-BU8" id="8VL-t6-q0w"/>
+                        <outlet property="AreasQueDebenSerMejoradas3" destination="oeX-F3-bQz" id="CWH-cJ-VGz"/>
+                        <outlet property="ConLaOrganizacionGeneralDeLaClinicaInsatisfecho" destination="1HT-K4-wTF" id="YtX-EW-1qW"/>
+                        <outlet property="ConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho" destination="Ofz-4g-Fmb" id="EOL-fG-E1g"/>
+                        <outlet property="ConLaOrganizacionGeneralDeLaClinicaMuySatisfecho" destination="lqC-tw-NV3" id="gDC-MG-VeH"/>
+                        <outlet property="ConLaOrganizacionGeneralDeLaClinicaSatisfecho" destination="vNe-1Q-3nn" id="mVm-NX-pBT"/>
+                        <outlet property="ConLaOrganizacionGeneralDeLaClinicaTerminoMedio" destination="YsL-UZ-etg" id="5vY-Hn-NlI"/>
+                        <outlet property="ConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho" destination="h3a-pO-CEV" id="49h-ta-his"/>
+                        <outlet property="ConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho" destination="pWr-JI-bTS" id="Wry-ZW-sae"/>
+                        <outlet property="ConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho" destination="S75-nh-c9p" id="1zk-Ik-X3K"/>
+                        <outlet property="ConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho" destination="ujh-b1-tck" id="Lbv-9l-v5c"/>
+                        <outlet property="ConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio" destination="ONL-PX-hPG" id="dlK-sh-46F"/>
+                        <outlet property="ConLasInstalacionesDondeTrabajamosInsatisfecho" destination="lLN-DK-mQs" id="rpW-SJ-iWt"/>
+                        <outlet property="ConLasInstalacionesDondeTrabajamosMuyInsatisfecho" destination="GO8-G1-Rez" id="O8V-tH-NoQ"/>
+                        <outlet property="ConLasInstalacionesDondeTrabajamosMuySatisfecho" destination="5Bk-g8-5ww" id="Rda-DO-ca1"/>
+                        <outlet property="ConLasInstalacionesDondeTrabajamosSatisfecho" destination="WIC-S7-5A5" id="RjQ-ee-l5H"/>
+                        <outlet property="ConLasInstalacionesDondeTrabajamosTerminoMedio" destination="Sbj-z9-HeQ" id="tpW-QX-QXf"/>
+                        <outlet property="CosasQueTeGustaronDeLaConsulta1" destination="ql0-mk-MJK" id="w50-t2-sCn"/>
+                        <outlet property="CosasQueTeGustaronDeLaConsulta2" destination="HtW-aM-NJr" id="LU8-d1-9w6"/>
+                        <outlet property="CosasQueTeGustaronDeLaConsulta3" destination="7xy-vG-1yD" id="KgC-Er-JH0"/>
+                        <outlet property="EstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica" destination="iUa-vs-otL" id="aVa-K8-wcp"/>
+                        <outlet property="RecomendariasOrtofaceUnAmigoConocidoNo" destination="roW-KL-biC" id="xYp-bt-czn"/>
+                        <outlet property="RecomendariasOrtofaceUnAmigoConocidoSi" destination="6Lg-sX-KyW" id="shE-iV-SAc"/>
+                        <outlet property="SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho" destination="WFA-Ag-bG1" id="CYg-Bx-1XX"/>
+                        <outlet property="SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho" destination="lKk-Ll-ccW" id="wvm-i4-bxj"/>
+                        <outlet property="SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho" destination="bHn-Go-yLs" id="j67-kC-Xh4"/>
+                        <outlet property="SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho" destination="UuT-tP-cIU" id="1Wf-1k-nbG"/>
+                        <outlet property="SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio" destination="hQm-hL-13c" id="XF2-ud-LAP"/>
+                        <outlet property="SeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico" destination="dWh-7i-n4Q" id="EdL-iv-BOe"/>
+                        <outlet property="backgroundImageView" destination="ei0-xl-Wj3" id="nHz-4G-GFZ"/>
+                        <outlet property="estasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica" destination="iUa-vs-otL" id="saz-oK-uV6"/>
+                        <outlet property="screenPictureImageView" destination="mmY-jb-DQK" id="BXh-k0-iay"/>
+                        <outlet property="screenPictureLabel" destination="kB9-LE-FxX" id="IJq-eg-dfk"/>
+                        <outlet property="screenPictureView" destination="vHy-o2-cui" id="Z2F-Bx-vZo"/>
+                        <outlet property="scrollView" destination="LEI-QO-wLO" id="Zqh-U8-ccJ"/>
+                    </connections>
+                </viewController>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_comentarios_usuarios.jpg" id="rkh-G6-Ed5">
+                    <rect key="frame" x="0.0" y="0.0" width="730" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3939" y="1284"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarController" id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ROQ-KP-MVF" kind="relationship" relationship="viewControllers" id="ZRf-gQ-iNA"/>
+                        <segue destination="ra6-xy-gDj" kind="relationship" relationship="viewControllers" id="sxw-OU-M9M"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2023" y="718"/>
+        </scene>
+        <!--ENCUESTA FINAL-->
+        <scene sceneID="7Gd-0c-rFO">
+            <objects>
+                <navigationController id="ra6-xy-gDj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="ENCUESTA FINAL" image="adultos.png" id="6"/>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="e61-Xw-DHb">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3" kind="relationship" relationship="rootViewController" id="OgQ-lG-QbM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wjH-Jr-rlg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3040" y="1284"/>
+        </scene>
+        <!--ORTOFACE-->
+        <scene sceneID="gL8-9h-aeR">
+            <objects>
+                <navigationController storyboardIdentifier="navigationController" id="ROQ-KP-MVF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="ORTOFACE" image="ortoface.png" id="7"/>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="GXD-Q2-Eqt">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="93v-8w-hha"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dF2-wg-5wt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3047" y="152"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FONDO_BIENVENIDOS.jpg" width="761" height="1024"/>
+        <image name="adultos.png" width="40" height="31"/>
+        <image name="boton_enviar_mail.png" width="67" height="41"/>
+        <image name="fondo_comentarios_usuarios.jpg" width="728" height="80"/>
+        <image name="fondo_unicalinea_comentarios.jpg" width="728" height="37"/>
+        <image name="logo.jpg" width="420" height="84"/>
+        <image name="ortoface.png" width="40" height="27"/>
+        <image name="tit_banner.jpg" width="998" height="105"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
