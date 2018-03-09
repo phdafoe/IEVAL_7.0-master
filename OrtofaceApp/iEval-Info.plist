@@ -25,7 +25,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>6</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -35,6 +35,8 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>Permiso para acceder a la camara del dispositivo</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Permiso para acceder a la biblioteca del dispositivo</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Permiso para acceder a la biblioteca del dispositivo</string>
 	<key>UIMainStoryboardFile</key>
